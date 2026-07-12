@@ -12,7 +12,7 @@
 - [✅] Definir nome do projeto
 - [✅] Criar README inicial
 - [✅] Criar LICENSE
-- [✅ ] Criar `.gitignore`
+- [✅] Criar `.gitignore`
 - [✅] Criar estrutura de pastas
 
 ## 📁 Estrutura
@@ -45,7 +45,7 @@ barberflow/
 
 ## 📄 Produto
 
-- [ ] Visão do Produto
+- [✅] Visão do Produto
 - [ ] Objetivos
 - [ ] Público-alvo
 - [ ] Problema que resolve
