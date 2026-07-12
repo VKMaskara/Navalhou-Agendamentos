@@ -1,0 +1,297 @@
+# 🗺️ BarberFlow - Roadmap Geral
+
+**Versão:** 1.0 (MVP)
+
+---
+
+# 📍FASE 0 — Planejamento
+
+## 📂 Estrutura do projeto
+
+- [✅] Criar repositório GitHub
+- [✅] Definir nome do projeto
+- [✅] Criar README inicial
+- [✅] Criar LICENSE
+- [✅ ] Criar `.gitignore`
+- [✅] Criar estrutura de pastas
+
+## 📁 Estrutura
+
+```text
+barberflow/
+│
+├── docs/
+│
+├── backend/
+│
+├── frontend/
+│
+├── database/
+│
+├── assets/
+│
+├── .github/
+│
+├── README.md
+│
+├── LICENSE
+│
+└── .gitignore
+```
+![alt text](image.png)
+---
+
+# 📍FASE 1 — Documentação
+
+## 📄 Produto
+
+- [ ] Visão do Produto
+- [ ] Objetivos
+- [ ] Público-alvo
+- [ ] Problema que resolve
+
+## 📄 Requisitos
+
+- [ ] Funcionais
+- [ ] Não Funcionais
+
+## 📄 Regras de Negócio
+
+- [ ] Clientes
+- [ ] Barbeiros
+- [ ] Serviços
+- [ ] Agendamentos
+- [ ] Dashboard
+
+## 📄 Casos de Uso
+
+- [ ] Cliente
+- [ ] Dono
+- [ ] Barbeiro
+
+## 📄 Modelo Relacional
+
+- [✅] Entidades
+- [✅] Relacionamentos
+- [✅] DER
+- [ ] Dicionário de Dados
+
+## 📄 API
+
+- [ ] Rotas
+- [ ] Request
+- [ ] Response
+- [ ] Códigos HTTP
+
+## 📄 Arquitetura
+
+- [ ] Estrutura Backend
+- [ ] Estrutura Frontend
+- [ ] Fluxo da aplicação
+
+## 📄 Roadmap
+
+- [ ] Cronograma
+- [ ] Sprint Planning
+
+## 📄 Backlog
+
+- [ ] Funcionalidades futuras
+
+---
+
+# 📍FASE 2 — Design
+
+## Banco
+
+- [ ] DER
+- [ ] Modelo Físico
+- [ ] Normalização
+
+## UI
+
+- [ ] Wireframes
+- [ ] Fluxo de Navegação
+- [ ] Responsividade
+
+---
+
+# 📍FASE 3 — Backend
+
+## Inicialização
+
+- [ ] Node
+- [ ] Express
+- [ ] ESLint
+- [ ] Prettier
+- [ ] EditorConfig
+- [ ] Dotenv
+
+## Banco
+
+- [ ] PostgreSQL
+- [ ] Knex
+- [ ] Conexão
+
+## Migrations
+
+- [ ] Barbershop
+- [ ] Users
+- [ ] Customers
+- [ ] Services
+- [ ] Appointments
+- [ ] Business Hours
+- [ ] Schedule Blocks
+
+## Seeds
+
+- [ ] Dono
+- [ ] Barbearia
+- [ ] Serviços
+
+## Autenticação
+
+- [ ] Login
+- [ ] JWT
+- [ ] Refresh Token
+- [ ] Middleware
+
+## Usuários
+
+- [ ] CRUD
+
+## Serviços
+
+- [ ] CRUD
+
+## Clientes
+
+- [ ] CRUD
+
+## Agenda
+
+- [ ] Horários disponíveis
+- [ ] Conflitos
+- [ ] Bloqueios
+
+## Dashboard
+
+- [ ] Receita diária
+- [ ] Receita mensal
+- [ ] Clientes
+- [ ] Serviços
+
+## Upload
+
+- [ ] Avatar
+- [ ] Logo
+
+## Documentação
+
+- [ ] Swagger
+
+---
+
+# 📍FASE 4 — Frontend
+
+## Configuração
+
+- [ ] React
+- [ ] Vite
+- [ ] Bootstrap
+- [ ] Axios
+- [ ] Router
+
+## Autenticação
+
+- [ ] Login
+
+## Dashboard
+
+- [ ] Cards
+- [ ] Gráficos
+
+## Usuários
+
+- [ ] Tela
+
+## Clientes
+
+- [ ] Tela
+
+## Serviços
+
+- [ ] Tela
+
+## Agenda
+
+- [ ] Calendário
+- [ ] Agendamento
+
+## Perfil
+
+- [ ] Configurações
+
+---
+
+# 📍FASE 5 — Testes
+
+## Backend
+
+- [ ] Unitários
+- [ ] Integração
+
+## Frontend
+
+- [ ] Componentes
+
+---
+
+# 📍FASE 6 — Deploy
+
+## Backend
+
+- [ ] Docker
+- [ ] Railway
+
+## Frontend
+
+- [ ] Vercel
+
+## Banco
+
+- [ ] PostgreSQL Cloud
+
+---
+
+# 📍FASE 7 — Portfólio
+
+## README
+
+- [ ] Tecnologias
+- [ ] Screenshots
+- [ ] Instalação
+- [ ] Funcionalidades
+- [ ] Arquitetura
+- [ ] Banco
+- [ ] API
+
+## GitHub
+
+- [ ] Releases
+- [ ] Tags
+- [ ] Issues
+- [ ] Milestones
+
+---
+
+# 📍FASE 8 — Melhorias Futuras
+
+- [ ] WhatsApp
+- [ ] Pix
+- [ ] Fidelidade
+- [ ] Notificações
+- [ ] IA
+- [ ] Multiempresa completa
+- [ ] Aplicativo
+- [ ] Multiidioma
