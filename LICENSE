@@ -1,8 +1,21 @@
-MIT License
+POLYFORM NONCOMMERCIAL LICENSE 1.0.0
 
-Copyright (c) 2026 Vitor Kauê
+Copyright (c) 2026 Vitor Kauê Rodrigues Santos
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+1. Grant of License
+Subject to the terms and conditions of this license, the licensor grants you a nonexclusive, royalty-free, worldwide license to study, run, modify, and distribute this software for noncommercial purposes only.
+
+2. Noncommercial Purpose
+A "noncommercial purpose" means a purpose not intended for or directed toward commercial advantage or monetary compensation. 
+
+3. Commercial Restrictions
+You MAY NOT:
+- Sell, rent, lease, or sublicense this software or any modified version of it.
+- Use this software in production for any commercial business, including but not limited to barber shops, salons, or scheduling platforms operating for profit.
+- Charge fees for access to, hosting of, or services derived from this software.
+
+4. Notice
+You must retain the above copyright notice and this license text in all copies or substantial portions of the software.
+
+5. Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
