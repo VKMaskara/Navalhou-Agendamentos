@@ -63,4 +63,6 @@ O desenvolvimento do projeto segue um roadmap dividido em fases, disponível no 
 
 ## Licença
 
-Este projeto utiliza a licença **MIT**.
+## Licença
+
+Este projeto está licenciado sob a licença **Creative Commons** - veja o arquivo [LICENSE](LICENSE) para mais detalhes. Permitido apenas para fins de estudo e aprendizagem.
