@@ -1,0 +1,7 @@
+PORT=sua_porta
+
+DB_HOST=sua_porta
+DB_PORT=sua_porta
+DB_USER=sua_porta
+DB_PASSWORD=sua_senha
+DB_NAME=sua_porta
