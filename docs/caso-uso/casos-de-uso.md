@@ -147,7 +147,7 @@ O administrador possui acesso completo à barbearia.
 - Editar
 - Ativar
 - Desativar
-
+ 
 ### CU19 — Gerenciar clientes
 
 Visualizar e consultar clientes cadastrados automaticamente pelos agendamentos.

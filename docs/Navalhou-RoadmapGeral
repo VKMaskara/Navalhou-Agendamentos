@@ -86,7 +86,7 @@ barberflow/
 
 ## 📄 Arquitetura
 
-- [ ] Estrutura Backend
+- [✅] Estrutura Backend
 - [ ] Estrutura Frontend
 - [ ] Fluxo da aplicação
 
@@ -125,17 +125,17 @@ barberflow/
 
 ## Inicialização
 
-- [ ] Node
-- [ ] Express
-- [ ] ESLint
-- [ ] Prettier
-- [ ] EditorConfig
-- [ ] Dotenv
+- [✅] Node
+- [✅] Express
+- [✅] ESLint
+- [✅] Prettier
+- [✅] EditorConfig
+- [✅] Dotenv
 
 ## Banco
 
-- [ ] PostgreSQL
-- [ ] Knex
+- [✅] PostgreSQL
+- [✅] Knex
 - [ ] Conexão
 
 ## Migrations
