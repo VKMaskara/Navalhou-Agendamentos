@@ -136,17 +136,17 @@ barberflow/
 
 - [✅] PostgreSQL
 - [✅] Knex
-- [ ] Conexão
+- [✅] Conexão
 
 ## Migrations
 
-- [ ] Barbershop
-- [ ] Users
-- [ ] Customers
-- [ ] Services
-- [ ] Appointments
-- [ ] Business Hours
-- [ ] Schedule Blocks
+- [✅] Barbershop
+- [✅] Users
+- [✅] Customers
+- [✅] Services
+- [✅] Appointments
+- [✅] Business Hours
+- [✅] Schedule Blocks
 
 ## Seeds
 

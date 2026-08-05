@@ -12,56 +12,57 @@ O Navalhou é o meu primeiro projeto Full Stack voltado para o meu desenvolvimen
 
 Construir uma aplicação completa, desde o levantamento de requisitos até o deploy, simulando o desenvolvimento de um projeto em um ambiente profissional.
 
----
+# 🏷️ Release v0.1.0 — Estrutura e Banco de Dados (MVP Foundation)
 
-## Funcionalidades
+## 📖 Descrição
 
-- [ ] Autenticação
-- [ ] Cadastro de clientes
-- [ ] Cadastro de serviços
-- [ ] Agendamentos
-- [ ] Dashboard
-- [ ] Responsividade
+Primeira versão pública do Navalhou. Nesta etapa foi construída toda a base arquitetural do projeto, incluindo a documentação do domínio, a modelagem do banco de dados e a infraestrutura inicial do backend.
 
 ---
 
-## Tecnologias
+## ✨ Funcionalidades entregues
 
-### Backend
-
-- Node.js
-- Express
-- Knex
-- PostgreSQL
-
-### Frontend
-
-- React
-- Bootstrap
-
----
-
-## Estrutura do projeto
-
-> *Em construção.*
+- Estrutura inicial do projeto;
+- Documentação do produto;
+- Requisitos Funcionais e Não Funcionais;
+- Regras de Negócio;
+- Casos de Uso;
+- DER (Diagrama Entidade-Relacionamento);
+- Dicionário de Dados;
+- Configuração do Node.js;
+- Configuração do Express;
+- Configuração do ESLint, Prettier e EditorConfig;
+- Configuração do PostgreSQL e Knex;
+- Conexão com o banco de dados;
+- Implementação de todas as migrations;
+- Validação da estrutura do banco no PostgreSQL.
 
 ---
 
-## Roadmap
+## 🗄️ Estrutura do Banco
 
-O desenvolvimento do projeto segue um roadmap dividido em fases, disponível no arquivo `Navalhou-RoadmapGeral.md`.
+- `barbershops`
+- `users`
+- `customers`
+- `services`
+- `appointments`
+- `business_hours`
+- `schedule_blocks`
+- `refresh_tokens`
+- `barber_services`
 
 ---
 
-## Status
+## 🚧 Próximos passos
 
-🟡 **Em desenvolvimento**
-
-**Fase atual:** Planejamento.
-
----
-
-## Licença
+- Seeds;
+- Repository Pattern;
+- Services;
+- Controllers;
+- Rotas;
+- Autenticação JWT;
+- CRUDs;
+- Agenda.
 
 ## Licença
 
