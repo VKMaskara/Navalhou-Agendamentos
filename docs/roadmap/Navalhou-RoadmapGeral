@@ -12,7 +12,7 @@
 - [✅] Definir nome do projeto
 - [✅] Criar README inicial
 - [✅] Criar LICENSE
-- [✅ ] Criar `.gitignore`
+- [✅] Criar `.gitignore`
 - [✅] Criar estrutura de pastas
 
 ## 📁 Estrutura
@@ -45,23 +45,23 @@ barberflow/
 
 ## 📄 Produto
 
-- [ ] Visão do Produto
-- [ ] Objetivos
-- [ ] Público-alvo
-- [ ] Problema que resolve
+- [✅] Visão do Produto
+- [✅] Objetivos
+- [✅] Público-alvo
+- [✅] Problema que resolve
 
 ## 📄 Requisitos
 
-- [ ] Funcionais
-- [ ] Não Funcionais
+- [✅] Funcionais
+- [✅] Não Funcionais
 
 ## 📄 Regras de Negócio
 
-- [ ] Clientes
-- [ ] Barbeiros
-- [ ] Serviços
-- [ ] Agendamentos
-- [ ] Dashboard
+- [✅] Clientes
+- [✅] Barbeiros
+- [✅] Serviços
+- [✅] Agendamentos
+- [✅] Dashboard
 
 ## 📄 Casos de Uso
 
@@ -74,9 +74,10 @@ barberflow/
 - [✅] Entidades
 - [✅] Relacionamentos
 - [✅] DER
-- [ ] Dicionário de Dados
+- [✅] Dicionário de Dados
 
-## 📄 API
+## 📄 API 
+-> Depois que finalizar o Backend
 
 - [ ] Rotas
 - [ ] Request
@@ -85,13 +86,13 @@ barberflow/
 
 ## 📄 Arquitetura
 
-- [ ] Estrutura Backend
+- [✅] Estrutura Backend
 - [ ] Estrutura Frontend
 - [ ] Fluxo da aplicação
 
 ## 📄 Roadmap
 
-- [ ] Cronograma
+- [✅] Cronograma
 - [ ] Sprint Planning
 
 ## 📄 Backlog
@@ -104,13 +105,17 @@ barberflow/
 
 ## Banco
 
-- [ ] DER
+- [✅] DER
 - [ ] Modelo Físico
-- [ ] Normalização
+- [✅] Normalização
 
 ## UI
 
-- [ ] Wireframes
+- [ ] Dashboard
+- [ ]Login
+- [ ]Agenda
+- [ ]Clientes
+- [ ]Serviços
 - [ ] Fluxo de Navegação
 - [ ] Responsividade
 
@@ -120,28 +125,28 @@ barberflow/
 
 ## Inicialização
 
-- [ ] Node
-- [ ] Express
-- [ ] ESLint
-- [ ] Prettier
-- [ ] EditorConfig
-- [ ] Dotenv
+- [✅] Node
+- [✅] Express
+- [✅] ESLint
+- [✅] Prettier
+- [✅] EditorConfig
+- [✅] Dotenv
 
 ## Banco
 
-- [ ] PostgreSQL
-- [ ] Knex
-- [ ] Conexão
+- [✅] PostgreSQL
+- [✅] Knex
+- [✅] Conexão
 
 ## Migrations
 
-- [ ] Barbershop
-- [ ] Users
-- [ ] Customers
-- [ ] Services
-- [ ] Appointments
-- [ ] Business Hours
-- [ ] Schedule Blocks
+- [✅] Barbershop
+- [✅] Users
+- [✅] Customers
+- [✅] Services
+- [✅] Appointments
+- [✅] Business Hours
+- [✅] Schedule Blocks
 
 ## Seeds
 
