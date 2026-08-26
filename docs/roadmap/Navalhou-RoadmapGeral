@@ -146,19 +146,19 @@ barberflow/
 - [✅] Services
 - [✅] Appointments
 - [✅] Business Hours
-- [✅] Schedule Blocks
+- [✅✅✅] Schedule Blocks
 
 ## Seeds
 
-- [ ] Dono
-- [ ] Barbearia
-- [ ] Serviços
+- [✅] Dono
+- [✅] Barbearia
+- [✅] Serviços
 
 ## Autenticação
 
-- [ ] Login
-- [ ] JWT
-- [ ] Refresh Token
+- [✅] Login
+- [✅] JWT
+- [✅] Refresh Token
 - [ ] Middleware
 
 ## Usuários
