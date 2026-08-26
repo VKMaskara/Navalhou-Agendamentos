@@ -1,6 +1,7 @@
 import { findUserByEmail } from "../repositories/UserRepository.js";
 import { createRefreshToken } from "../repositories/RefreshTokenRepository.js";
 import { generateAccessToken, generateRefreshToken } from "../utils/jwt.js";
+import AppError from "../utils/AppError.js";
 
 import bcrypt from 'bcryptjs'
 
@@ -8,17 +9,17 @@ async function authenticate(email, password) {
     const user = await findUserByEmail(email)
 
     if(!user){
-        throw new Error('Invalid email or password')
+        throw  AppError('Invalid email or password', 401)
     }
 
     if(!user.active){
-        throw new Error('Invalid email or password')
+        throw  AppError('Invalid email or password', 401)
     }
 
     const isPasswordValid = await bcrypt.compare(password, user.password)
 
     if(!isPasswordValid){
-        throw new Error('Invalid email or password')
+        throw  AppError('Invalid email or password', 401)
     }
 
     const accessToken = generateAccessToken(user)

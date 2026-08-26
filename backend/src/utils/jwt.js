@@ -31,7 +31,7 @@ export const generateRefreshToken = (user) => {
 
 export const verifyAccessToken = (token) => {
     const secret = process.env.JWT_ACCESS_SECRET
-    jwt.verify(token, secret)
+   return jwt.verify(token, secret)
     
 }
 
