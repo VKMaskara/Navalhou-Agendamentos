@@ -25,6 +25,7 @@ app.use('/api/auth', authRoute);
 
 
 
+
 // ─── Middleware de tratamento de erros ─────────────────────────────────
 app.use (errorHandler);
 

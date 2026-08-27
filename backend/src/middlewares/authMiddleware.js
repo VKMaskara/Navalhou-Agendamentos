@@ -11,7 +11,6 @@ const authMiddleware = (req, res, next) => {
     const [scheme, token] = authHeader.split(' '); // Formato: Bearer TOKEN
 
 
-
     if (scheme !== 'Bearer' || !token) {
         throw AppError('Access denied', 401)
     }
@@ -25,8 +24,6 @@ const authMiddleware = (req, res, next) => {
         }
         next()
     } catch (error) {
-        console.log('JWT ERROR:', error.name)
-        console.log('JWT MESSAGE:', error.message)
 
         throw AppError('Invalid token', 401)
     }
