@@ -1,5 +1,7 @@
 import jwt from 'jsonwebtoken'
 
+//_____ Gera AccessToken _________________________
+
 export const generateAccessToken = (user) => {
     const payload = {
         role: user.role,
@@ -16,6 +18,8 @@ export const generateAccessToken = (user) => {
     return jwt.sign(payload, secret, options)
 }
 
+//_____ Gera efreshToken _________________________
+
 export const generateRefreshToken = (user) => {
     
 
@@ -29,6 +33,8 @@ export const generateRefreshToken = (user) => {
     return jwt.sign({}, secret, options)
 }
 
+
+//______ VERIFICAÇÃO DE TOKEN __________________
 export const verifyAccessToken = (token) => {
     const secret = process.env.JWT_ACCESS_SECRET
    return jwt.verify(token, secret)
@@ -37,5 +43,5 @@ export const verifyAccessToken = (token) => {
 
 export const verifyRefreshToken = (token) =>{
     const secret = process.env.JWT_REFRESH_SECRET
-    jwt.verify(token, secret)
+    return jwt.verify(token, secret)
 }
