@@ -5,3 +5,9 @@ export async function findUserByEmail(email) {
 
     return user
 }
+
+export async function findUserById(id) {
+    const user = await knex('users').where({ id }).first()
+
+    return user
+}
