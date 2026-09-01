@@ -1,4 +1,4 @@
-import authenticate from "../services/AuthService.js";
+import { authenticate, refreshAccessToken } from "../services/AuthService.js";
 
 class AuthController {
 
@@ -13,7 +13,15 @@ class AuthController {
             refreshToken
         })
 
+    }
 
+    static async refresh(req, res) {
+        const { refreshToken} = req.body
+        const { accessToken } = await refreshAccessToken(refreshToken)
+
+        return res.status(200).json({
+            accessToken
+        })
     }
 
 }

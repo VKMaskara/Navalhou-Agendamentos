@@ -1,11 +1,12 @@
 import Router from "express";
 import AuthController from "../controllers/AuthController.js";
-import authMiddleware from "../middlewares/authMiddleware.js";
-import roleMiddleware from "../middlewares/roleMiddleware.js";
+import loginValidator from "../validators/auth/loginValidator.js";
+
 
 const router = Router();
 
-router.post('/login', AuthController.login);
+router.post('/login', loginValidator, AuthController.login);
+router.post('/refresh-token', AuthController.refresh);
 
 
 export default router;
