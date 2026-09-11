@@ -4,6 +4,7 @@ import cors from 'cors';
 
 import authRoute from './src/routes/auth.routes.js';
 import errorHandler from './src/middlewares/errorHandler.js';
+import userRoute from './src/routes/user.routes.js';
 
 
 const app = express();
@@ -21,9 +22,8 @@ app.get('/', (req, res) => {
 // ─── Rota login ──────────────────────────────────────────────────────────
 app.use('/api/auth', authRoute);
 
-
-
-
+// ─── Rotas privadas ──────────────────────────────────────────────────────────
+app.use('/api/users', userRoute);
 
 
 // ─── Middleware de tratamento de erros ─────────────────────────────────
