@@ -32,10 +32,8 @@ export async function listUsersByBarbershop(barbershopId) {
     return users
 }
 
-export async function createUser(user) {
-    const [createdUser] = await knex('users')
-    .insert(user)
-    .returning('*')
+export async function createUser(data, trx = knex) {
+    const [createdUser] = await trx('users').insert(data).returning('*')
     return createdUser
 }
 
