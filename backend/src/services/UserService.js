@@ -3,7 +3,7 @@ import { findUserByEmail, createUser, listUsersByBarbershop, findUserById, updat
 import AppError from '../utils/AppError.js'
 
 export async function registerUser(data, requester) {
-    const { name, email, password } = data
+    const { name, email, password } = data //
 
     // Checa duplicidade de e-mail antes de qualquer outra coisa
     const existingUser = await findUserByEmail(email)
