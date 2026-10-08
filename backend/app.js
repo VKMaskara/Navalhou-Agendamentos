@@ -6,6 +6,7 @@ import authRoute from './src/routes/auth.routes.js';
 import errorHandler from './src/middlewares/errorHandler.js';
 import userRoute from './src/routes/user.routes.js';
 import barbershopRoute from './src/routes/barbershop.routes.js';
+import serviceRoute from './src/routes/service.routes.js'
 
 
 const app = express();
@@ -26,9 +27,12 @@ app.use('/api/auth', authRoute);
 // ─── Rotas barbearias / cadastro ──────────────────────────────────────────────────────────
 app.use('/api/barbershops', barbershopRoute);
 
+
 // ─── Rotas privadas ──────────────────────────────────────────────────────────
 app.use('/api/users', userRoute);
 
+// ─── Rotas Service ──────────────────────────────────────────────────────────
+app.use('/api/services', serviceRoute)
 
 // ─── Middleware de tratamento de erros ─────────────────────────────────
 app.use (errorHandler);
