@@ -1,6 +1,6 @@
 import AppError from "../../utils/AppError.js";
 
-const createServiceValidator = (req, res, next) => {
+const createServiceValidator = (req, res, next) =>{
     const {
         name,
         description,
@@ -9,7 +9,7 @@ const createServiceValidator = (req, res, next) => {
         active
     } = req.body
 
-    if (!name || !description || duration == + undefined || price === undefined) {
+    if (!name || !description || duration ==+ undefined || price === undefined){
         return next(AppError("Please provide name, description, duration and price", 400));
     }
 
@@ -31,12 +31,13 @@ const createServiceValidator = (req, res, next) => {
         return next(AppError("price cannot be negative", 400));
     }
 
-    if (active !== undefined && typeof active !== "boolean") {
+     if (active !== undefined && typeof active !== "boolean") {
         return next(AppError("active must be a boolean", 400));
     }
 
     next();
 
+    
 }
 
 const updateServiceValidator = (req, res, next) => {
