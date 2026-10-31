@@ -7,12 +7,14 @@ import errorHandler from './src/middlewares/errorHandler.js';
 import userRoute from './src/routes/user.routes.js';
 import barbershopRoute from './src/routes/barbershop.routes.js';
 import serviceRoute from './src/routes/service.routes.js'
+import BarberServiceRoute from './src/routes/barberService.route.js'
 
 
 const app = express();
 
 app.use(express.json());
 app.use(cors());
+app.use('/api/barber-services', BarberServiceRoute);
 
 
 
@@ -32,7 +34,10 @@ app.use('/api/barbershops', barbershopRoute);
 app.use('/api/users', userRoute);
 
 // ─── Rotas Service ──────────────────────────────────────────────────────────
-app.use('/api/services', serviceRoute)
+app.use('/api/services', serviceRoute);
+
+// ─── Rotas BarberService ───────────────────────────────────────────────────
+app.use('/api/barber-services', BarberServiceRoute);
 
 // ─── Middleware de tratamento de erros ─────────────────────────────────
 app.use (errorHandler);
